@@ -1,0 +1,198 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.hei300 {
+    height: 500px;
+}
+
+.reviews {
+    padding-top: 20px;
+}
+
+.new-section {
+    padding-top: 50px;
+}
+
+/* Navigation image в карточке объекта */
+
+.slider {
+    margin: 5px 0 0 5px;
+
+    overflow: hidden;
+}
+
+.slider-preview {}
+
+.slider-preview img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.navigation {
+    margin-top: 10px;
+    height: 60px;
+    position: relative;
+}
+
+.navigation__content {
+    display: flex;
+    position: absolute;
+    height: 100%;
+}
+
+.navigation__preview {
+    margin-right: 8px;
+    width: 100px;
+    box-sizing: border-box;
+
+}
+
+.navigation__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/////////////////////////////////////////////////
+/*  Header панель  */
+
+.header-panel-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-panel {
+    margin-top: 110px;
+}
+
+.breadcrumbs {}
+
+.address {}
+
+.bookmark {}
+
+//////////////////////////////////////////////////////////
+/* Логин */
+
+.login-btn {
+    border-radius: 16px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.login-link {
+    text-align: end;
+}
+
+.login-link a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login-reg-link {
+    text-align: center;
+}
+
+.login-reg-link a {
+    font-size: 14px;
+}
+
+.login-link a:hover {
+    color: rgb(104, 164, 253);
+}
+
+.login-input {
+    margin-bottom: -15px;
+}
+
+.login-input input::placeholder {
+    text-align: center;
+
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cont {
+    position: relative;
+}
+
+.cont input[type=checkbox] {
+    position: absolute;
+    top: -15px;
+    left: -55px;
+    transform: scale(0.2);
+    
+}
+
+.cont span {
+    padding-left: 24px;
+    font-size: 12px;
+}
+
+// .remember-forgot label {
+//     display: inline-block;
+//     vertical-align: middle;
+// }
+
+// .login-checkbox {
+//     position: absolute;
+//     top: 2px;
+//     left: 5px;
+//     // display: inline-block;
+//     // vertical-align: middle;
+// }
+
+.login-checkbox input {
+    // position: absolute;
+    // top: 2px;
+    // left: 15px;
+    // vertical-align: middle;
+    // height: 15px;
+    // transform: scale(0.2);
+}
+
+// ::placeholder {
+//     text-align: center;
+// }
+
+
+//////////////////////////////////////////////////////////
+/* Регистрация */
+
+.register-btn {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    background: #F9AD81;
+    /* Серый цвет фона */
+    color: #fff;
+    /* Белый цвет текста */
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    border: none;
+    padding: 1rem 1.5rem;
+    /* Поля вокруг текста */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.register-btn-container {
+    margin-top: -30px;
+}
